@@ -1,0 +1,1486 @@
+{
+  "users": [
+    {
+      "id": "c0PUKKCvkzBTH4xpbpw3T",
+      "phone": "8767705637",
+      "createdAt": "2025-12-12T06:09:18.230Z",
+      "disease": "Ulcerative Colitis",
+      "updatedAt": "2025-12-12T06:09:22.434Z"
+    },
+    {
+      "id": "wKkuZ1-0s3Es2K2XnhFRR",
+      "phone": "+918767705637",
+      "createdAt": "2025-12-12T09:08:19.584Z",
+      "disease": "Ulcerative Colitis",
+      "updatedAt": "2025-12-12T09:08:33.513Z"
+    },
+    {
+      "id": "ISrRjNijOu2bc8qdwh53e",
+      "phone": "+8767",
+      "username": "ajay",
+      "password": "ajju",
+      "createdAt": "2025-12-22T12:08:01.820Z",
+      "disease": null,
+      "updatedAt": "2025-12-22T12:08:12.984Z"
+    },
+    {
+      "id": "73-jVn4eBbtH8IJaAgxBX",
+      "phone": "+555",
+      "username": "Aje",
+      "password": "1234",
+      "createdAt": "2025-12-22T12:25:53.151Z",
+      "disease": null,
+      "updatedAt": "2026-01-06T10:35:25.972Z"
+    },
+    {
+      "id": "m7xx7HfQ0W-IOhXNM8Vmt",
+      "phone": "+55555",
+      "username": "Ajay",
+      "password": "Ajju",
+      "createdAt": "2025-12-22T12:27:42.083Z",
+      "disease": null,
+      "updatedAt": "2025-12-22T12:27:48.227Z"
+    },
+    {
+      "id": "WLCK0kB1TM7_aEBC30uYy",
+      "phone": "+5555",
+      "username": "Ajay",
+      "password": "Ajju",
+      "createdAt": "2025-12-22T12:49:23.910Z",
+      "disease": null,
+      "updatedAt": "2025-12-22T12:49:31.280Z"
+    },
+    {
+      "id": "MZn2wjoC8rjQINu2fUatk",
+      "phone": "+952728",
+      "username": "Aj",
+      "password": "aj",
+      "createdAt": "2025-12-24T06:42:46.888Z",
+      "disease": null,
+      "updatedAt": "2025-12-24T06:42:59.482Z"
+    },
+    {
+      "id": "eEuXTvL4uwd2noT9_Uzvx",
+      "phone": "+2222",
+      "username": "A",
+      "password": "a",
+      "createdAt": "2026-01-06T08:29:23.609Z",
+      "disease": null,
+      "updatedAt": "2026-01-06T08:29:31.129Z"
+    },
+    {
+      "id": "NdK1Mh96C2HAL3wJTLNC3",
+      "phone": "+22",
+      "username": "A",
+      "password": "aj",
+      "createdAt": "2026-01-06T09:59:01.450Z",
+      "disease": null,
+      "updatedAt": "2026-01-06T09:59:10.363Z"
+    },
+    {
+      "id": "lRzuD97XdvUGmv3cYOXuK",
+      "phone": "+917387935306",
+      "username": "Test",
+      "password": "12345",
+      "createdAt": "2026-02-05T09:09:59.437Z",
+      "disease": null,
+      "updatedAt": "2026-02-05T09:10:15.330Z"
+    }
+  ],
+  "food_checks": [
+    {
+      "id": "AyJaeZJUmKt7qVB-aiRLk",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "cacheKey": "ulcerative colitis|chicken",
+      "foodName": "Chicken",
+      "disease": "Ulcerative Colitis",
+      "verdict": "Yes",
+      "explanation": "Chicken is generally well-tolerated by individuals with ulcerative colitis, providing a good source of protein without irritating the gut.",
+      "alternatives": [],
+      "confidence": "High",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"Yes\", \"explanation\": \"Chicken is generally well-tolerated by individuals with ulcerative colitis, providing a good source of protein without irritating the gut.\", \"confidence\": \"High\" }",
+      "createdAt": "2025-12-12T07:27:43.969Z"
+    },
+    {
+      "id": "1_vcWuex_k2AOTWfP-GtB",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "cacheKey": "ulcerative colitis|chicken",
+      "foodName": "Chicken",
+      "disease": "Ulcerative Colitis",
+      "verdict": "Yes",
+      "explanation": "Chicken is generally well-tolerated by individuals with ulcerative colitis and can be a good source of protein.",
+      "alternatives": [],
+      "confidence": "High",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"Yes\", \"explanation\": \"Chicken is generally well-tolerated by individuals with ulcerative colitis and can be a good source of protein.\", \"confidence\": \"High\" }",
+      "createdAt": "2025-12-12T07:27:45.505Z"
+    },
+    {
+      "id": "XVwUy9ZM0kypwLeT4anvm",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "cacheKey": "ulcerative colitis|puri",
+      "foodName": "Puri",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "Puri is a deep-fried bread that may be high in fat and difficult to digest, potentially exacerbating ulcerative colitis symptoms.",
+      "alternatives": [],
+      "confidence": "Medium",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"Puri is a deep-fried bread that may be high in fat and difficult to digest, potentially exacerbating ulcerative colitis symptoms.\", \"confidence\": \"Medium\" }",
+      "createdAt": "2025-12-12T07:31:41.129Z"
+    },
+    {
+      "id": "9j_lyP2yNltFUTAeMN21b",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "cacheKey": "ulcerative colitis|puri",
+      "foodName": "Puri",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "Puri is a deep-fried bread that may be high in fat and difficult to digest, potentially exacerbating ulcerative colitis symptoms.",
+      "alternatives": [],
+      "confidence": "High",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"Puri is a deep-fried bread that may be high in fat and difficult to digest, potentially exacerbating ulcerative colitis symptoms.\", \"confidence\": \"High\" }",
+      "createdAt": "2025-12-12T07:31:43.177Z"
+    },
+    {
+      "id": "JHLDUzMFjUcUZQN2i8swe",
+      "userId": "wKkuZ1-0s3Es2K2XnhFRR",
+      "cacheKey": "ulcerative colitis|ll",
+      "foodName": "Ll",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "The food item 'Ll' is unclear and does not provide enough information to assess its suitability for someone with Ulcerative Colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"The food item 'Ll' is unclear and does not provide enough information to assess its suitability for someone with Ulcerative Colitis.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T09:22:19.478Z"
+    },
+    {
+      "id": "EeyUJ8AKzSw5WZmjcSMmn",
+      "userId": "wKkuZ1-0s3Es2K2XnhFRR",
+      "cacheKey": "ulcerative colitis|ll",
+      "foodName": "Ll",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "The food item 'Ll' is unclear and does not provide enough information to assess its suitability for someone with Ulcerative Colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"The food item 'Ll' is unclear and does not provide enough information to assess its suitability for someone with Ulcerative Colitis.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T09:22:21.212Z"
+    },
+    {
+      "id": "ORPoVTGEEeY9VuaApJZTI",
+      "userId": "M-OZeOh7xcS5pybVMW4bB",
+      "cacheKey": "ulcerative colitis|banana",
+      "foodName": "Banana",
+      "disease": "Ulcerative Colitis",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally well-tolerated and can help soothe the digestive tract, making them a good option for those with ulcerative colitis.",
+      "alternatives": [],
+      "confidence": "High",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"Yes\", \"explanation\": \"Bananas are generally well-tolerated and can help soothe the digestive tract, making them a good option for those with ulcerative colitis.\", \"confidence\": \"High\" }",
+      "createdAt": "2025-12-12T10:08:54.201Z"
+    },
+    {
+      "id": "zs37eQnuIA5IYXkrNySaO",
+      "userId": "M-OZeOh7xcS5pybVMW4bB",
+      "cacheKey": "ulcerative colitis|nndh",
+      "foodName": "Nndh",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "The food 'Nndh' does not appear to be a recognized item, making it difficult to assess its impact on ulcerative colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"The food 'Nndh' does not appear to be a recognized item, making it difficult to assess its impact on ulcerative colitis.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T10:09:55.024Z"
+    },
+    {
+      "id": "V-fijJ5x1R5Sngp2JS904",
+      "userId": "M-OZeOh7xcS5pybVMW4bB",
+      "cacheKey": "ulcerative colitis|lund",
+      "foodName": "Lund",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "There is insufficient information about 'Lund' as a food in relation to ulcerative colitis. It may not be a recognized dietary option.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"There is insufficient information about 'Lund' as a food in relation to ulcerative colitis. It may not be a recognized dietary option.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T10:10:11.010Z"
+    },
+    {
+      "id": "Ss5dvsK07sScliHmPEdUh",
+      "userId": "M-OZeOh7xcS5pybVMW4bB",
+      "cacheKey": "ulcerative colitis|fuck",
+      "foodName": "Fuck",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "The term 'Fuck' is not a food item and does not relate to dietary considerations for ulcerative colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"The term 'Fuck' is not a food item and does not relate to dietary considerations for ulcerative colitis.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T10:10:26.266Z"
+    },
+    {
+      "id": "MveJAJZchyONoZf7Rw_4X",
+      "userId": "M-OZeOh7xcS5pybVMW4bB",
+      "cacheKey": "ulcerative colitis|can fuck with my colleague",
+      "foodName": "Can fuck with my colleague",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "The statement does not provide relevant information about food and its impact on ulcerative colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"The statement does not provide relevant information about food and its impact on ulcerative colitis.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T10:10:47.351Z"
+    },
+    {
+      "id": "15eYNTH_sLLA7HDxvBEir",
+      "userId": "M-OZeOh7xcS5pybVMW4bB",
+      "cacheKey": "ulcerative colitis|clear chat",
+      "foodName": "Clear chat",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "The food item 'Clear chat' is not a recognized food and does not relate to dietary management of Ulcerative Colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"The food item 'Clear chat' is not a recognized food and does not relate to dietary management of Ulcerative Colitis.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T10:11:06.295Z"
+    },
+    {
+      "id": "U8pZRVq9Ed1qMX7JWVzX_",
+      "userId": "M-OZeOh7xcS5pybVMW4bB",
+      "cacheKey": "ulcerative colitis|cleafsg",
+      "foodName": "Cleafsg",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "Cleafsg is not a recognized food item and may not be suitable for individuals with Ulcerative Colitis. It's important to stick to known safe foods.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"Cleafsg is not a recognized food item and may not be suitable for individuals with Ulcerative Colitis. It's important to stick to known safe foods.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T10:11:15.102Z"
+    },
+    {
+      "id": "1DRb3T-Ue4fca2vuz-t1b",
+      "userId": "M-OZeOh7xcS5pybVMW4bB",
+      "cacheKey": "ulcerative colitis|jdjd",
+      "foodName": "Jdjd",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "The food 'Jdjd' is not recognized as a valid or relevant dietary option for managing ulcerative colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"The food 'Jdjd' is not recognized as a valid or relevant dietary option for managing ulcerative colitis.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T10:11:17.292Z"
+    },
+    {
+      "id": "ZqFK40279XmAROppURGhl",
+      "userId": "M-OZeOh7xcS5pybVMW4bB",
+      "cacheKey": "ulcerative colitis|dbbdbd",
+      "foodName": "Dbbdbd",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "The food item 'Dbbdbd' does not correspond to any known dietary recommendations or restrictions for ulcerative colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"The food item 'Dbbdbd' does not correspond to any known dietary recommendations or restrictions for ulcerative colitis.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-12T10:11:40.496Z"
+    },
+    {
+      "id": "o93OnI_zbn8CkjGJGxhQc",
+      "userId": "Z3OKVyLfbTpciDXfYNhx1",
+      "cacheKey": "ulcerative colitis|hii",
+      "foodName": "Hii",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "The food item 'Hii' is not recognized as a valid food choice for managing Ulcerative Colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"The food item 'Hii' is not recognized as a valid food choice for managing Ulcerative Colitis.\", \"confidence\": \"Low\" }",
+      "createdAt": "2025-12-17T07:16:01.302Z"
+    },
+    {
+      "id": "KWVeMqCxOYCIcvsoOBCO4",
+      "userId": "Z3OKVyLfbTpciDXfYNhx1",
+      "cacheKey": "ulcerative colitis|sex",
+      "foodName": "Sex",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "Sex is not a food and does not have a direct impact on ulcerative colitis.",
+      "alternatives": [],
+      "confidence": "Low",
+      "model": "openai",
+      "raw": "{\n  \"verdict\": \"No\",\n  \"explanation\": \"Sex is not a food and does not have a direct impact on ulcerative colitis.\",\n  \"confidence\": \"Low\"\n}",
+      "createdAt": "2025-12-17T07:16:43.174Z"
+    },
+    {
+      "id": "lab6spH1OcRhT5IIBvyZH",
+      "userId": "sWJxGZfo52Ex6lrRrqAcX",
+      "cacheKey": "ulcerative colitis|panipuri",
+      "foodName": "Panipuri",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "Panipuri is typically high in spices and may irritate the gastrointestinal tract, which can exacerbate ulcerative colitis symptoms.",
+      "alternatives": [],
+      "confidence": "High",
+      "model": "openai",
+      "raw": "{\n  \"verdict\": \"No\",\n  \"explanation\": \"Panipuri is typically high in spices and may irritate the gastrointestinal tract, which can exacerbate ulcerative colitis symptoms.\",\n  \"confidence\": \"High\"\n}",
+      "createdAt": "2025-12-17T09:15:43.910Z"
+    },
+    {
+      "id": "aHMgmSb0JswWOnVIhum9B",
+      "userId": "sWJxGZfo52Ex6lrRrqAcX",
+      "cacheKey": "ulcerative colitis|carrit",
+      "foodName": "Carrit",
+      "disease": "Ulcerative Colitis",
+      "verdict": "No",
+      "explanation": "Carrots are generally safe for ulcerative colitis patients, but individual tolerance may vary. It's best to monitor symptoms.",
+      "alternatives": [],
+      "confidence": "Medium",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"No\", \"explanation\": \"Carrots are generally safe for ulcerative colitis patients, but individual tolerance may vary. It's best to monitor symptoms.\", \"confidence\": \"Medium\" }",
+      "createdAt": "2025-12-17T09:16:16.267Z"
+    },
+    {
+      "id": "jUxr6Kdzbpqf46lQeJZkE",
+      "userId": "sWJxGZfo52Ex6lrRrqAcX",
+      "cacheKey": "ulcerative colitis|carrot",
+      "foodName": "Carrot",
+      "disease": "Ulcerative Colitis",
+      "verdict": "Yes",
+      "explanation": "Carrots are generally well-tolerated and can provide essential nutrients without irritating the gut. They are often recommended for those with ulcerative colitis.",
+      "alternatives": [],
+      "confidence": "High",
+      "model": "openai",
+      "raw": "{ \"verdict\": \"Yes\", \"explanation\": \"Carrots are generally well-tolerated and can provide essential nutrients without irritating the gut. They are often recommended for those with ulcerative colitis.\", \"confidence\": \"High\" }",
+      "createdAt": "2025-12-17T09:16:18.930Z"
+    },
+    {
+      "id": "M_vWpkvSEZxzbLJOW6vg_",
+      "userId": "9qWmbHlorixyZNlKxgPUB",
+      "disease": "Ulcerative Colitis",
+      "food": "Grapes",
+      "verdict": "No",
+      "explanation": "Grapes, especially with their skins, are high in insoluble fiber. This can be difficult to digest and may irritate the inflamed bowel, potentially worsening symptoms for individuals with Ulcerative Colitis, particularly during flare-ups.",
+      "alternatives": [
+        "Applesauce",
+        "Ripe banana",
+        "Canned peaches (peeled, without syrup)"
+      ],
+      "createdAt": "2025-12-18T07:40:53.615Z"
+    },
+    {
+      "id": "KXFl2KApCVHoObaXN01sz",
+      "userId": "9qWmbHlorixyZNlKxgPUB",
+      "disease": "Ulcerative Colitis",
+      "food": "Spinach",
+      "verdict": "No",
+      "explanation": "Spinach is high in insoluble fiber, which can be difficult to digest for individuals with Ulcerative Colitis and may trigger or worsen symptoms like cramping and diarrhea, especially during flare-ups.",
+      "alternatives": [
+        "Cooked carrots",
+        "Peeled and cooked zucchini",
+        "Cooked sweet potato"
+      ],
+      "createdAt": "2025-12-18T07:41:51.261Z"
+    },
+    {
+      "id": "vNkv6Ql-9eLtJXAk_jpPQ",
+      "userId": "9qWmbHlorixyZNlKxgPUB",
+      "disease": "Ulcerative Colitis",
+      "food": "Spinach",
+      "verdict": "No",
+      "explanation": "Spinach, especially raw, is high in insoluble fiber which can be difficult to digest and potentially irritate an inflamed bowel in individuals with Ulcerative Colitis, especially during a flare.",
+      "alternatives": [
+        "Well-cooked, peeled carrots",
+        "Butternut squash",
+        "Sweet potatoes"
+      ],
+      "createdAt": "2025-12-18T07:42:02.936Z"
+    },
+    {
+      "id": "bJ9evF5sKXZQ8NsjTE95X",
+      "userId": "9qWmbHlorixyZNlKxgPUB",
+      "disease": "Ulcerative Colitis",
+      "food": "Roasted Chicken",
+      "verdict": "No",
+      "explanation": "Roasted chicken, often prepared with skin and various seasonings, can be high in fat and contain irritants that may worsen Ulcerative Colitis symptoms, especially during flares. It's best to avoid potentially triggering foods.",
+      "alternatives": [
+        "Baked skinless chicken breast",
+        "Steamed white fish",
+        "Plain scrambled eggs"
+      ],
+      "createdAt": "2025-12-18T07:43:38.781Z"
+    },
+    {
+      "id": "fwSs6IFYZI9kwQ1i5DE37",
+      "userId": "9qWmbHlorixyZNlKxgPUB",
+      "disease": "Ulcerative Colitis",
+      "food": "Roasted Whole Chicken",
+      "verdict": "No",
+      "explanation": "Roasted chicken, particularly with its skin, can be high in fat and potentially irritants from browning. High-fat foods can exacerbate symptoms in individuals with Ulcerative Colitis, especially during flares.",
+      "alternatives": [
+        "Skinless, boiled chicken breast",
+        "Steamed white fish",
+        "Baked turkey breast"
+      ],
+      "createdAt": "2025-12-18T07:43:47.486Z"
+    },
+    {
+      "id": "o_6VXe1VPAzSRDbDz7Zs1",
+      "userId": "9qWmbHlorixyZNlKxgPUB",
+      "disease": "Ulcerative Colitis",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Ripe bananas are generally safe for Ulcerative Colitis. They are low in fiber and easily digestible, helping to firm stools and provide essential nutrients. Unripe bananas with higher resistant starch should be avoided.",
+      "alternatives": [
+        "Applesauce (peeled)",
+        "White rice",
+        "Plain chicken"
+      ],
+      "createdAt": "2025-12-18T07:44:48.210Z"
+    },
+    {
+      "id": "D3MtlGbDLWaUSVfDbT4QM",
+      "userId": "9qWmbHlorixyZNlKxgPUB",
+      "disease": "Ulcerative Colitis",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Ripe bananas are generally safe for Ulcerative Colitis patients due to their low insoluble fiber content and easy digestibility. They provide valuable nutrients like potassium and can be a gentle source of energy. It's best to consume them ripe and monitor individual tolerance.",
+      "alternatives": [],
+      "createdAt": "2025-12-18T07:44:57.425Z"
+    },
+    {
+      "id": "HeK42JfFKd6R1F8mjUvNf",
+      "userId": "9qWmbHlorixyZNlKxgPUB",
+      "disease": "Ulcerative Colitis",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Ripe bananas are generally well-tolerated for Ulcerative Colitis. They are low in insoluble fiber, easy to digest, and can help provide energy and potassium. They may also help firm stools during remission or mild flares, making them a suitable fruit choice.",
+      "alternatives": [],
+      "createdAt": "2025-12-18T07:45:06.847Z"
+    },
+    {
+      "id": "EmlLPs0R_PPD9E6xF1QFT",
+      "userId": "9qWmbHlorixyZNlKxgPUB",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis (UC), especially during flare-ups. They are a low-fiber fruit when ripe, easy to digest, and can help replenish potassium lost due to diarrhea. Their bland nature is less likely to irritate an inflamed digestive tract. It's best to consume ripe bananas.",
+      "alternatives": [
+        "Cooked peeled apples",
+        "Canned peaches (in light syrup)",
+        "Honeydew melon",
+        "Cantaloupe"
+      ],
+      "createdAt": "2025-12-18T07:59:04.293Z"
+    },
+    {
+      "id": "SC2pj9LZovluBgLdrqI0e",
+      "userId": "Igyqth4iAt41l8puW0hul",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis. When ripe, they are low in fiber, easily digestible, and less likely to irritate the inflamed bowel. They can also help firm up stools and provide essential nutrients like potassium, which may be beneficial, especially during periods of diarrhea or flares.",
+      "alternatives": [
+        "Peeled apples (especially as applesauce)",
+        "Cooked pears",
+        "Ripe melon (cantaloupe, honeydew)",
+        "White rice",
+        "Mashed potatoes (without skin)"
+      ],
+      "createdAt": "2025-12-18T09:53:24.825Z"
+    },
+    {
+      "id": "J_DGgJQA4dT5otaUVaZhT",
+      "userId": "Igyqth4iAt41l8puW0hul",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered a safe and beneficial food for individuals with Ulcerative Colitis, especially during flares. They are bland, easy to digest, and a good source of soluble fiber, which can help regulate bowel movements and soothe the digestive tract. They are also rich in potassium, an important electrolyte that can be depleted during diarrhea. Ripe bananas are usually preferred over unripe ones as they contain less resistant starch and are easier to tolerate.",
+      "alternatives": [
+        "Peeled and cooked apples or applesauce",
+        "Melons (cantaloupe, honeydew)",
+        "Canned peaches (without skin)",
+        "Pears (peeled)"
+      ],
+      "createdAt": "2025-12-18T09:53:30.987Z"
+    },
+    {
+      "id": "4uWhrekwRIo7biSZOmw1o",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis, especially when ripe. They are easy to digest, low in insoluble fiber, and a good source of potassium. The soluble fiber in ripe bananas can help regulate bowel movements and may have a soothing effect on the digestive tract. Individual tolerance may vary, so it's best to consume them very ripe.",
+      "alternatives": [
+        "Cantaloupe",
+        "Honeydew melon",
+        "Peeled cooked apples",
+        "Papaya"
+      ],
+      "createdAt": "2025-12-18T10:10:36.953Z"
+    },
+    {
+      "id": "ilOvJZPfj2ksSmQBioakv",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and beneficial for individuals with Ulcerative Colitis (UC). They are a low-fiber, easy-to-digest fruit, especially when ripe. Their soluble fiber content can help regulate bowel movements and provide a soothing effect on the digestive tract without irritating an inflamed bowel.",
+      "alternatives": [
+        "Melons (cantaloupe, honeydew)",
+        "Avocado",
+        "Cooked applesauce",
+        "Peeled and well-cooked peaches",
+        "Soft, peeled pears"
+      ],
+      "createdAt": "2025-12-18T10:31:13.253Z"
+    },
+    {
+      "id": "uC9lKSdKCYqRi-iPITcwK",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe for individuals with Ulcerative Colitis, especially when ripe. They are soft, easy to digest, and low in insoluble fiber, which can be beneficial during both remission and flare-ups. They also provide potassium and other important nutrients.",
+      "alternatives": [
+        "Cantaloupe (peeled)",
+        "Honeydew melon (peeled)",
+        "Cooked and peeled apples (e.g., applesauce)",
+        "Avocado",
+        "Peeled peaches or pears (canned in water or light syrup)"
+      ],
+      "createdAt": "2025-12-18T10:31:18.661Z"
+    },
+    {
+      "id": "vTo-Aiba-aPO0IQdAEVOP",
+      "userId": "IN7EGF5BJrkzfvmOWryyB",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe for individuals with Ulcerative Colitis, especially when ripe. They are low in insoluble fiber, easily digestible, and a good source of potassium. They are often part of a gentle diet recommended for digestive health and typically do not irritate the digestive system.",
+      "alternatives": [
+        "Peeled and cooked apples",
+        "Cantaloupe",
+        "Honeydew melon",
+        "Ripe papaya"
+      ],
+      "createdAt": "2025-12-18T12:48:52.908Z"
+    },
+    {
+      "id": "ZIUJtKXog24OEBoLl2S32",
+      "userId": "IN7EGF5BJrkzfvmOWryyB",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Ripe bananas are generally considered safe for individuals with Ulcerative Colitis, even during flares. They are soft, easily digestible, low in fiber (when ripe), and a good source of potassium and other nutrients, which can be beneficial for managing symptoms and maintaining nutrition. However, individual tolerance can vary, and it's always best to consult with a healthcare provider or registered dietitian.",
+      "alternatives": [
+        "Applesauce (cooked apples without skin)",
+        "Cantaloupe",
+        "Honeydew melon",
+        "Peeled peaches",
+        "Cooked carrots",
+        "Cooked squash"
+      ],
+      "createdAt": "2025-12-18T12:49:01.301Z"
+    },
+    {
+      "id": "qs0yLT5N3SyW0XQLx5WIs",
+      "userId": "IN7EGF5BJrkzfvmOWryyB",
+      "food": "Bitter melon (also known as bitter gourd or goya)",
+      "verdict": "No",
+      "explanation": "Bitter melon is generally high in fiber, which can be problematic for individuals with Ulcerative Colitis, especially during flare-ups. High-fiber foods can exacerbate symptoms such as bloating, gas, abdominal pain, and diarrhea. Additionally, some people with sensitive digestive systems might find its strong bitter compounds irritating. It is generally advisable for those with UC to follow a low-fiber diet during active disease and to consult a healthcare professional or registered dietitian before introducing new foods.",
+      "alternatives": [
+        "Cooked and peeled non-fibrous vegetables like zucchini or carrots",
+        "Ripe bananas",
+        "Soft, cooked potatoes (without skin)",
+        "Lean proteins such as chicken or fish"
+      ],
+      "createdAt": "2025-12-18T12:49:44.371Z"
+    },
+    {
+      "id": "LzCgFB0mhJYaRoJhjn67G",
+      "userId": "IN7EGF5BJrkzfvmOWryyB",
+      "food": "Bitter Gourd (also known as Bitter Melon)",
+      "verdict": "No",
+      "explanation": "Bitter gourd is a fibrous vegetable. For individuals with Ulcerative Colitis, especially during a flare-up, high-fiber foods can aggravate symptoms such as abdominal pain, bloating, and diarrhea. While bitter gourd contains beneficial anti-inflammatory compounds and various nutrients, its fiber content might be difficult to digest and could irritate the inflamed bowel. Individual tolerance varies greatly, and some individuals in remission might tolerate it well, especially if cooked thoroughly and seeds are removed. However, during active disease or for those prone to digestive upset from fiber, it is generally recommended to avoid or consume with extreme caution and under medical guidance.",
+      "alternatives": [
+        "Peeled and thoroughly cooked zucchini or squash",
+        "Cooked spinach (without tough stems)",
+        "Peeled and cooked carrots",
+        "Potatoes (peeled and boiled/baked)",
+        "White rice",
+        "Lean protein sources like skinless poultry or fish"
+      ],
+      "createdAt": "2025-12-18T12:49:57.726Z"
+    },
+    {
+      "id": "5ZfTdwxslGIJXy2_gW4Oe",
+      "userId": "IN7EGF5BJrkzfvmOWryyB",
+      "food": "Bitter gourd (Bitter melon)",
+      "verdict": "No",
+      "explanation": "Bitter gourd contains fiber, which can be difficult to digest for individuals with Ulcerative Colitis (UC), especially during a flare-up. High-fiber foods can sometimes exacerbate symptoms such as abdominal pain, bloating, and diarrhea. While some individuals with UC in remission might tolerate it in moderation, it's generally recommended to be cautious with fibrous vegetables, particularly if experiencing active symptoms. Individual tolerance varies greatly, and it's best to consult a healthcare professional or registered dietitian specializing in IBD before introducing new or potentially irritating foods.",
+      "alternatives": [
+        "Well-cooked, peeled vegetables like zucchini, pumpkin, or carrots (especially during flares)",
+        "Tender, well-cooked leafy greens such as spinach (without tough stems)",
+        "Canned or peeled fruits (if tolerated and without seeds/skins)"
+      ],
+      "createdAt": "2025-12-18T12:50:14.204Z"
+    },
+    {
+      "id": "LpOJu1epgNAybnIAdxmnh",
+      "userId": "IN7EGF5BJrkzfvmOWryyB",
+      "food": "Bitter Melon (Goya)",
+      "verdict": "No",
+      "explanation": "Bitter melon is known for its high fiber content and distinct bitter taste. While it possesses some anti-inflammatory properties, its fibrous nature and strong flavor could potentially irritate a sensitive digestive system and trigger symptoms in individuals with Ulcerative Colitis, particularly during a flare-up. It's generally advisable for UC patients to introduce such foods with caution and consult with a healthcare professional or registered dietitian.",
+      "alternatives": [
+        "Cooked and peeled carrots",
+        "Well-cooked spinach (pureed if needed)",
+        "Peeled and seedless zucchini (cooked)",
+        "Cooked potatoes (peeled)",
+        "Cooked sweet potatoes (peeled)"
+      ],
+      "createdAt": "2025-12-18T12:50:45.045Z"
+    },
+    {
+      "id": "-y0a_6FgcNp07ZIttbP7U",
+      "userId": "IN7EGF5BJrkzfvmOWryyB",
+      "food": "Daikon Radishes",
+      "verdict": "No",
+      "explanation": "Daikon radishes are cruciferous vegetables, which are typically high in fiber and can be difficult to digest, especially when raw. For individuals with Ulcerative Colitis, particularly during a flare-up, consuming raw, high-fiber vegetables can lead to increased gas, bloating, abdominal pain, and may exacerbate symptoms. It's generally recommended to avoid raw vegetables and choose cooked, easily digestible options.",
+      "alternatives": [
+        "Peeled and cooked zucchini",
+        "Cooked carrots (well-steamed or boiled)",
+        "Peeled and cooked potatoes or sweet potatoes",
+        "Cooked and pureed squash (e.g., butternut squash)",
+        "Leafy greens like spinach (cooked until very tender)"
+      ],
+      "createdAt": "2025-12-18T12:51:08.015Z"
+    },
+    {
+      "id": "hdLKAif1UCFMzaeLqThX1",
+      "userId": "IN7EGF5BJrkzfvmOWryyB",
+      "food": "Indian Thali (includes white rice, flatbread, various curries like daal, chickpea masala, paneer curry, and a dessert like gulab jamun)",
+      "verdict": "No",
+      "explanation": "An Indian thali typically contains a variety of dishes that can be problematic for someone with Ulcerative Colitis (UC). These include high-fiber legumes like daal and chickpeas, which can aggravate symptoms. Many curries are prepared with spices and oils that can irritate the digestive tract. Dairy products like paneer and ingredients in desserts like gulab jamun (often milk-based and fried) can also be triggers for some individuals with UC. The overall complexity and potential for high fat, spice, and fiber content make it generally unsafe, especially during a flare.",
+      "alternatives": [
+        "Plain white rice with well-cooked, lean protein (e.g., boiled chicken or fish).",
+        "Soft, thoroughly cooked, peeled, and seeded vegetables (e.g., carrots, squash, pumpkin, potatoes).",
+        "Low-fat, low-lactose dairy alternatives if dairy is a trigger.",
+        "Bland, easily digestible foods, avoiding excessive spices, high fiber, and fried items."
+      ],
+      "createdAt": "2025-12-18T12:52:29.615Z"
+    },
+    {
+      "id": "awdndVmtimR808e5BN4M2",
+      "userId": "HsntboOOlP1LEMU4Af9rp",
+      "food": "Gulab jamun",
+      "verdict": "No",
+      "explanation": "Gulab jamun is a deep-fried sweet made from milk solids (khoa) and soaked in a heavy sugar syrup. For individuals with Ulcerative Colitis, high-fat foods from deep-frying, excessive sugar, and dairy products can trigger symptoms, worsen inflammation, or cause digestive discomfort, especially during flares.",
+      "alternatives": [
+        "Baked apples or pears",
+        "Peeled, ripe bananas",
+        "Applesauce",
+        "Simple rice pudding made with non-dairy milk and minimal sugar",
+        "Small portions of sorbet (avoiding high-fructose corn syrup)"
+      ],
+      "createdAt": "2025-12-19T07:17:28.130Z"
+    },
+    {
+      "id": "Hivk9fGtSNNwRij1A63LF",
+      "userId": "HsntboOOlP1LEMU4Af9rp",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis, especially when ripe. They are low in insoluble fiber, easy to digest, and provide essential nutrients like potassium, which can be beneficial, particularly during flares or periods of diarrhea. They are also a good source of prebiotics (fructooligosaccharides) which can support gut health.",
+      "alternatives": [
+        "Melons (cantaloupe, honeydew)",
+        "Peeled and cooked apples (e.g., applesauce)",
+        "Peeled and cooked pears",
+        "Papaya",
+        "Ripe mango"
+      ],
+      "createdAt": "2025-12-19T08:24:15.202Z"
+    },
+    {
+      "id": "7pz_uadpXtj2XgE1wg7vL",
+      "userId": "HsntboOOlP1LEMU4Af9rp",
+      "food": "Papaya",
+      "verdict": "Yes",
+      "explanation": "Papaya is generally considered safe and potentially beneficial for individuals with Ulcerative Colitis, particularly during remission or mild symptoms. It contains digestive enzymes like papain and chymopapain, which can aid digestion, and is rich in vitamins, minerals, and antioxidants. The fiber in ripe papaya is primarily soluble, which is often better tolerated than insoluble fiber for those with IBD. However, individual tolerance varies. It is recommended to consume ripe papaya, peeled and deseeded, and in moderation. Unripe papaya or the seeds may be irritating for sensitive digestive systems.",
+      "alternatives": [
+        "Ripe bananas",
+        "Cantaloupe",
+        "Honeydew melon",
+        "Cooked fruits like applesauce, peeled peaches, or pears"
+      ],
+      "createdAt": "2025-12-19T08:25:27.387Z"
+    },
+    {
+      "id": "LlcMH9HK_sUjLJdXe7VQ3",
+      "userId": "HsntboOOlP1LEMU4Af9rp",
+      "food": "Guava",
+      "verdict": "No",
+      "explanation": "Guava is a high-fiber fruit and contains seeds, both of which can be irritating to an inflamed bowel for someone with Ulcerative Colitis. High-fiber foods are generally discouraged, especially during flare-ups, as they can exacerbate symptoms like diarrhea, abdominal pain, and cramping. Even during remission, some individuals may find it difficult to tolerate.",
+      "alternatives": [
+        "Ripe bananas",
+        "Cantaloupe",
+        "Honeydew melon",
+        "Peeled and cooked apples or pears",
+        "Fruit juices (without pulp)"
+      ],
+      "createdAt": "2025-12-19T08:26:29.120Z"
+    },
+    {
+      "id": "ubH-t8StNwmQuxrWnI4Cr",
+      "userId": "HsntboOOlP1LEMU4Af9rp",
+      "food": "Pav Bhaji",
+      "verdict": "No",
+      "explanation": "Pav Bhaji is a rich and spicy Indian dish made from mashed vegetables cooked with a generous amount of butter and a blend of hot spices. It is typically served with buttered bread rolls (pav), raw onions, and a lemon wedge. For someone with Ulcerative Colitis (UC), several elements can trigger symptoms: the high quantity of strong spices (especially chili) can irritate an inflamed colon, the high-fat content from butter can worsen digestive issues, and the raw onions are a common digestive irritant and high in FODMAPs. While the vegetables are cooked, their variety and density, along with the other irritants, make this dish generally unsafe during flares and potentially problematic even during remission.",
+      "alternatives": [
+        "Plain, well-cooked, low-fiber vegetables like peeled and deseeded zucchini, boiled potatoes, or well-cooked carrots, prepared with minimal oil and no spices.",
+        "Simple, bland protein sources such as grilled or baked lean chicken or fish.",
+        "Refined grains like plain white rice or well-cooked pasta (without rich sauces).",
+        "Mild lentil soup (dal) prepared very simply with minimal spices and fat.",
+        "Small amounts of easily digestible starches such as plain, lightly toasted white bread, if tolerated."
+      ],
+      "createdAt": "2025-12-19T08:27:24.638Z"
+    },
+    {
+      "id": "wZmeVmsu7SN8QrXwGqzB4",
+      "userId": "HsntboOOlP1LEMU4Af9rp",
+      "food": "Pav Bhaji",
+      "verdict": "No",
+      "explanation": "Pav Bhaji is generally not recommended for someone with Ulcerative Colitis, especially during a flare or for sensitive individuals. It is typically a very spicy dish, containing significant amounts of pav bhaji masala, ginger-garlic paste, and often red chili powder, which can irritate an inflamed colon. It is also often served with raw onions, which can cause gas and bloating, and it's prepared with a high amount of butter, which can be difficult to digest for some with UC. While the pav (bread) is refined, the overall combination of ingredients makes it problematic.",
+      "alternatives": [
+        "Moong Dal Khichdi (plain, well-cooked, with minimal spices)",
+        "Steamed Rice with mild, well-cooked Dal (lentil soup, without onion or garlic chunks)",
+        "Plain Idli with a mild, vegetable-based sambar (ensure vegetables are very soft and well-cooked, and sambar is not spicy)",
+        "Soft cooked vegetables (like boiled potatoes, zucchini, bottle gourd) with minimal oil and spices",
+        "Plain Roti (unleavened bread) with a mild, simply prepared vegetable curry"
+      ],
+      "createdAt": "2025-12-19T08:27:36.111Z"
+    },
+    {
+      "id": "C5a-KyZxPSpz5mxTZYhFt",
+      "userId": "gtQCweCNTJWZYVYP_tJLT",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and beneficial for individuals with Ulcerative Colitis (UC). They are low in fiber when ripe, easy to digest, and can provide essential nutrients and energy without irritating the digestive tract. Their soluble fiber content can also help with stool consistency. However, individual tolerance varies, and very ripe bananas are usually best.",
+      "alternatives": [
+        "Applesauce (peeled and cooked)",
+        "Cantaloupe",
+        "Honeydew melon",
+        "Cooked carrots",
+        "Mashed potatoes (skinless)"
+      ],
+      "createdAt": "2025-12-19T12:06:25.252Z"
+    },
+    {
+      "id": "Uk-r_-52NLxPJDk6qkFW6",
+      "userId": "gtQCweCNTJWZYVYP_tJLT",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis (UC), especially during flare-ups. They are easy to digest, soft, and low in insoluble fiber, which can reduce irritation to the inflamed bowel. Ripe bananas contain soluble fiber, which can help regulate bowel movements, and they are a good source of potassium, which can be beneficial if there's nutrient loss due to diarrhea.",
+      "alternatives": [
+        "Melon (cantaloupe, honeydew)",
+        "Cooked or stewed apples (peeled)",
+        "Peeled, cooked peaches",
+        "Avocado",
+        "White rice",
+        "Oatmeal (well-cooked)",
+        "Boiled or baked potatoes (peeled)"
+      ],
+      "createdAt": "2025-12-19T12:08:54.953Z"
+    },
+    {
+      "id": "VV2fIwLvcSB9Gt54htqU2",
+      "userId": "gtQCweCNTJWZYVYP_tJLT",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis, especially when ripe. They are a low-fiber, bland, and easily digestible fruit that can provide essential nutrients and potassium without irritating the digestive system. They can also help firm up stool, which may be beneficial during a flare.",
+      "alternatives": [
+        "Applesauce (peeled apples, cooked)",
+        "Ripe peeled pears",
+        "Cooked carrots",
+        "Boiled potatoes (peeled)",
+        "White rice",
+        "Well-cooked lean protein (e.g., chicken, fish)"
+      ],
+      "createdAt": "2025-12-19T12:14:12.508Z"
+    },
+    {
+      "id": "fP1vdMkC81eIoxRbgEAbK",
+      "userId": "gtQCweCNTJWZYVYP_tJLT",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Ripe bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis, especially during a flare-up. They are low in insoluble fiber, easy to digest, and a good source of potassium, which can be beneficial, especially if diarrhea is present. However, individual tolerance can vary, so it's always best to introduce new foods slowly and monitor symptoms.",
+      "alternatives": [
+        "Applesauce (unsweetened)",
+        "Peeled and thoroughly cooked peaches",
+        "Melons (like cantaloupe or honeydew, without seeds)",
+        "Avocado"
+      ],
+      "createdAt": "2025-12-19T12:15:04.293Z"
+    },
+    {
+      "id": "-pujcKwiI5X3GSnqyg8JL",
+      "userId": "gtQCweCNTJWZYVYP_tJLT",
+      "food": "Banana",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and beneficial for individuals with Ulcerative Colitis, both during flares and remission. They are low in fiber (especially ripe bananas), easily digestible, and provide important nutrients like potassium. Their bland nature can help soothe the digestive tract. However, individual tolerance can vary, so it's always best to monitor your own reaction.",
+      "alternatives": [
+        "Applesauce (unsweetened)",
+        "Melons (cantaloupe, honeydew)",
+        "Peeled and cooked carrots",
+        "Peeled and cooked zucchini",
+        "White rice",
+        "Oatmeal (cooked well)"
+      ],
+      "createdAt": "2025-12-19T12:17:50.509Z"
+    },
+    {
+      "id": "LVMwE8-vIHpaVKtgMiBMn",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and beneficial for individuals with Ulcerative Colitis, particularly ripe ones. They are low in fiber (when ripe), easy to digest, and can help provide essential nutrients and potassium without irritating the inflamed bowel. They can also help firm up stools, which can be helpful during a flare.",
+      "alternatives": [
+        "Applesauce (peeled and cooked)",
+        "Cantaloupe",
+        "Honeydew melon",
+        "Peeled and cooked peaches",
+        "Avocado (in moderation)"
+      ],
+      "createdAt": "2025-12-22T07:19:47.517Z"
+    },
+    {
+      "id": "e8GKFgrPfsKF47fLx1A2O",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and beneficial for individuals with Ulcerative Colitis, both during flares and in remission. They are low in fiber when ripe, easy to digest, and can help to firm stools. They are also a good source of potassium and other essential nutrients, making them a well-tolerated fruit for many people with UC.",
+      "alternatives": [
+        "Applesauce (made from peeled, cooked apples)",
+        "Peeled, cooked pears",
+        "Melons (cantaloupe, honeydew)",
+        "White rice",
+        "Oatmeal"
+      ],
+      "createdAt": "2025-12-22T07:20:07.065Z"
+    },
+    {
+      "id": "TrmcWnWyVnsOBvqdq1pRs",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis, especially during a flare-up. They are soft, easy to digest, low in insoluble fiber, and provide essential nutrients like potassium, which can be beneficial.",
+      "alternatives": [
+        "Applesauce",
+        "Melons (like cantaloupe or honeydew)",
+        "Cooked or peeled pears",
+        "Ripe peaches (peeled)"
+      ],
+      "createdAt": "2025-12-22T07:26:21.142Z"
+    },
+    {
+      "id": "FE8cjZNKZS0ziSDDB869n",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and beneficial for individuals with Ulcerative Colitis, especially ripe ones. They are low in fiber, easy to digest, and can help firm up stool, which can be helpful during periods of active inflammation or diarrhea. Unripe bananas may contain more resistant starch, which could cause gas in some sensitive individuals, so very ripe bananas are often preferred.",
+      "alternatives": [
+        "Cooked applesauce (peeled)",
+        "Cantaloupe",
+        "Honeydew melon",
+        "Ripe mango (peeled)"
+      ],
+      "createdAt": "2025-12-22T07:32:40.339Z"
+    },
+    {
+      "id": "iswkEmI-SmaEit7JY27_5",
+      "userId": "0N0wmjvkCWCZ2MGkQDNdS",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Ripe bananas are generally considered safe for individuals with Ulcerative Colitis. They are a low-fiber fruit (when ripe) that is easy to digest and less likely to irritate an inflamed bowel. They also provide essential nutrients like potassium.",
+      "alternatives": [
+        "Cooked apples (without skin)",
+        "Melon (cantaloupe, honeydew)",
+        "Papaya",
+        "Pears (cooked, without skin)"
+      ],
+      "createdAt": "2025-12-22T07:35:59.814Z"
+    },
+    {
+      "id": "8590uO9Rhzx6WDM7JsO2w",
+      "userId": "0N0wmjvkCWCZ2MGkQDNdS",
+      "food": "Banana",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis, especially when ripe. They are a low-fiber, easily digestible, and gentle fruit that can provide essential nutrients like potassium. They can be particularly helpful during flare-ups or periods of remission. However, individual tolerance can vary, so it's always best to monitor symptoms and consult with a healthcare professional or registered dietitian.",
+      "alternatives": [
+        "Cooked or canned peaches (without skin)",
+        "Melons (cantaloupe, honeydew)",
+        "Peeled and cooked apples or applesauce",
+        "Ripe avocados"
+      ],
+      "createdAt": "2025-12-22T07:36:29.194Z"
+    },
+    {
+      "id": "c0TSZeile1kEK0Z4cz56a",
+      "userId": "0N0wmjvkCWCZ2MGkQDNdS",
+      "food": "Apple",
+      "verdict": "No",
+      "explanation": "Raw apples, especially with the skin, are high in insoluble fiber and FODMAPs (fructose and polyols), which can be difficult to digest and may trigger or worsen symptoms like bloating, gas, and abdominal pain in individuals with Ulcerative Colitis (UC), particularly during a flare-up. The insoluble fiber can irritate an inflamed bowel, and FODMAPs can lead to osmotic effects and fermentation issues in the colon.",
+      "alternatives": [
+        "Peeled and cooked apples (e.g., applesauce without added sugar)",
+        "Bananas",
+        "Melons (cantaloupe, honeydew)",
+        "Peeled peaches or pears (in small amounts, if tolerated)",
+        "Berries (strawberries, blueberries) – if well-tolerated, often better without seeds during flares"
+      ],
+      "createdAt": "2025-12-22T07:37:36.984Z"
+    },
+    {
+      "id": "Jq-q2Sq_tnFTA3l-o1PHV",
+      "userId": "0N0wmjvkCWCZ2MGkQDNdS",
+      "food": "Curd",
+      "verdict": "No",
+      "explanation": "Curd (or yogurt) is a fermented dairy product. While some individuals with Ulcerative Colitis (UC) may tolerate plain, unsweetened yogurt due to its probiotics and reduced lactose content, dairy can be a common trigger for symptoms in many people with UC, especially during a flare-up. Its safety is highly dependent on individual tolerance and the current state of the disease. It is generally recommended to introduce dairy products cautiously and monitor symptoms, or to avoid them if they cause discomfort. Consulting a healthcare professional or registered dietitian is advised to determine individual dietary needs for UC.",
+      "alternatives": [
+        "Dairy-free yogurts (e.g., made from almond, coconut, soy, or oat milk)",
+        "Fermented plant-based foods (e.g., kimchi, sauerkraut) if tolerated",
+        "Lactose-free yogurt if lactose intolerance is the primary concern"
+      ],
+      "createdAt": "2025-12-22T07:38:41.712Z"
+    },
+    {
+      "id": "D0aOTMcbpyMnqR80u5-vZ",
+      "userId": "m7xx7HfQ0W-IOhXNM8Vmt",
+      "food": "Banana",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis, especially ripe ones. They are bland, easy to digest, low in insoluble fiber, and a good source of potassium, which can be beneficial during a flare-up or for general management without irritating the digestive tract.",
+      "alternatives": [
+        "Peeled and cooked apples (like applesauce)",
+        "Melons (cantaloupe, honeydew)",
+        "Ripe avocados"
+      ],
+      "createdAt": "2025-12-22T12:28:21.922Z"
+    },
+    {
+      "id": "ikuvU9ni3gRBZ9Y7UaOXt",
+      "userId": "m7xx7HfQ0W-IOhXNM8Vmt",
+      "food": "Banana",
+      "verdict": "Yes",
+      "explanation": "Bananas are generally considered safe and often recommended for individuals with Ulcerative Colitis, especially when ripe. They are easy to digest, low in insoluble fiber, and can help provide energy and electrolytes without irritating the digestive tract. They may also help firm up loose stools.",
+      "alternatives": [
+        "Applesauce (peeled)",
+        "Peeled peaches or pears (canned or cooked)",
+        "Melon (cantaloupe, honeydew)",
+        "Cooked carrots",
+        "Sweet potatoes (peeled)"
+      ],
+      "createdAt": "2025-12-22T12:28:27.239Z"
+    },
+    {
+      "id": "T7Mu3oPE699sS5MyyesbI",
+      "userId": "m7xx7HfQ0W-IOhXNM8Vmt",
+      "food": "Peanuts",
+      "verdict": "No",
+      "explanation": "Peanuts, especially with their skins, are high in insoluble fiber, which can be difficult to digest and may exacerbate symptoms for individuals with Ulcerative Colitis, particularly during a flare-up. They can be irritating to an inflamed digestive tract.",
+      "alternatives": [
+        "Smooth peanut butter (ensure it's free of chunks and consumed in moderation if tolerated during remission)",
+        "Peeled and well-cooked vegetables",
+        "Lean protein sources like skinless poultry, fish, or eggs",
+        "Refined grains like white rice or plain pasta"
+      ],
+      "createdAt": "2025-12-22T12:48:36.291Z"
+    },
+    {
+      "id": "v6bosKyriMMVXWXF3DpnJ",
+      "userId": "m7xx7HfQ0W-IOhXNM8Vmt",
+      "food": "Peanuts",
+      "verdict": "No",
+      "explanation": "Peanuts are high in fiber and fat, which can be difficult to digest and may trigger or worsen symptoms such as cramping, gas, and diarrhea for individuals with Ulcerative Colitis, particularly during flare-ups. The skins on peanuts also add to their insoluble fiber content, which can be irritating to an inflamed colon. Even during remission, some individuals may find them problematic.",
+      "alternatives": [
+        "Smooth, plain peanut butter (without chunks or skins) in very small amounts, only if tolerated and during remission, not during a flare-up.",
+        "Smooth almond or cashew butter (without skins or chunks), in small amounts if tolerated and during remission.",
+        "Easily digestible protein sources during flares, such as cooked lean poultry, fish, eggs, or plain tofu."
+      ],
+      "createdAt": "2025-12-22T12:48:46.426Z"
+    },
+    {
+      "id": "jEeA49kOALQb3mry9nM3J",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "food": "Pineapple",
+      "verdict": "No",
+      "explanation": "Pineapple is high in fiber and acidity, which can be irritating to the digestive system and potentially trigger or worsen symptoms for individuals with Ulcerative Colitis, especially during flare-ups. It's generally advised to avoid or consume with extreme caution and in very small, well-tolerated amounts during remission, but raw pineapple is often poorly tolerated. Always consult with a healthcare professional or registered dietitian for personalized dietary advice.",
+      "alternatives": [
+        "Ripe bananas",
+        "Canned peaches (in light syrup)",
+        "Melons (like cantaloupe or honeydew, if well-tolerated and in small amounts)",
+        "Cooked apples (peeled and stewed)"
+      ],
+      "createdAt": "2025-12-24T06:44:49.976Z"
+    },
+    {
+      "id": "3_tN1DSiVx9vPzc1G8tqE",
+      "userId": "lRzuD97XdvUGmv3cYOXuK",
+      "food": "Bananas",
+      "verdict": "Yes",
+      "explanation": "Ripe bananas are generally considered safe and beneficial for individuals with Ulcerative Colitis, even during flares. They are easy to digest, low in FODMAPs, rich in potassium (which can be depleted during diarrhea), and contain pectin which can help firm up stools. However, unripe bananas may contain more resistant starch which could potentially cause discomfort in some individuals.",
+      "alternatives": [
+        "Applesauce",
+        "Cantaloupe",
+        "Honeydew",
+        "Peeled peaches (well-ripened or canned)",
+        "Cooked pears"
+      ],
+      "createdAt": "2026-02-05T09:11:32.544Z"
+    },
+    {
+      "id": "Xk0jZWkxWakw0pA9iFpIN",
+      "userId": "lRzuD97XdvUGmv3cYOXuK",
+      "food": "A platter of various raw fresh fruits and vegetables, including yellow bell pepper, carrots, broccoli, lettuce, zucchini/cucumber, radishes, cherry tomatoes, and a green pear.",
+      "verdict": "No",
+      "explanation": "This platter contains a high amount of raw, high-fiber fruits and vegetables. While these are generally very healthy, for someone with Ulcerative Colitis (UC), especially during a flare-up, high-fiber and raw foods can be irritating to the inflamed bowel, potentially exacerbating symptoms like abdominal pain, bloating, and diarrhea. Specific items like broccoli and radishes (cruciferous vegetables) can cause gas, and the skins and seeds of tomatoes and pears contribute to the fiber load. Individual tolerance varies greatly, and some people in remission might tolerate small amounts, but as a general recommendation, this selection is not safe for UC patients without significant modification.",
+      "alternatives": [
+        "Cooked, peeled, and seedless vegetables (e.g., well-cooked carrots, peeled zucchini, squash, sweet potatoes).",
+        "Peeled, cooked, or canned fruits (e.g., applesauce, peeled ripe bananas, canned peaches or pears without heavy syrup).",
+        "Soft, well-tolerated cooked grains (e.g., white rice, oatmeal).",
+        "Lean protein sources (e.g., skinless poultry, fish, eggs)."
+      ],
+      "createdAt": "2026-02-05T09:12:53.863Z"
+    },
+    {
+      "id": "G8WQ_JohDMpSpg9U9d0uY",
+      "userId": "lRzuD97XdvUGmv3cYOXuK",
+      "food": "A meal featuring a bowl with shredded chicken or turkey, sliced avocado, sliced apples (with skin), and a hard-boiled egg. It is accompanied by halves of grapefruit, cherry tomatoes, cherries, and additional hard-boiled egg halves.",
+      "verdict": "No",
+      "explanation": "While lean protein (chicken/turkey), avocado, and eggs are generally well-tolerated for Ulcerative Colitis, this meal includes several raw, high-fiber, and acidic foods such as grapefruit, apples with skin, cherry tomatoes, and cherries. These can be significant triggers for individuals with Ulcerative Colitis, potentially causing increased inflammation, discomfort, and digestive symptoms, especially during a flare-up.",
+      "alternatives": [
+        "Peeled and cooked apples or applesauce instead of raw apples with skin.",
+        "Bananas, melon, or cooked, peeled, and deseeded vegetables (like zucchini or squash) instead of grapefruit and raw tomatoes.",
+        "Well-cooked, lean proteins like chicken, turkey, or fish.",
+        "Easily digestible grains such as white rice or gluten-free pasta (if tolerated).",
+        "Ensure all vegetables are cooked thoroughly and peeled if necessary to reduce fiber content."
+      ],
+      "createdAt": "2026-02-05T09:15:26.494Z"
+    },
+    {
+      "id": "Yh30bKlxO0U6SbYjuyTFD",
+      "userId": "lRzuD97XdvUGmv3cYOXuK",
+      "food": "Strawberries",
+      "verdict": "No",
+      "explanation": "Strawberries contain small seeds and fiber, which can be irritating to an inflamed bowel during an Ulcerative Colitis flare-up. While some individuals in remission might tolerate them in moderation, it is generally advised to avoid raw fruits with seeds during active disease or if they cause symptoms.",
+      "alternatives": [
+        "Canned fruits (without skin or seeds, like peaches or pears)",
+        "Cooked fruits (e.g., applesauce, baked pears, steamed carrots)",
+        "Peeled and ripe fruits (like bananas, cantaloupe, honeydew)",
+        "Strained fruit purees or smoothies (ensure no seeds or pulp remain)"
+      ],
+      "createdAt": "2026-02-05T09:15:58.731Z"
+    }
+  ],
+  "meal_logs": [
+    {
+      "id": "UtxdGYiin4mxJyC0JKOe1",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "foodName": "Pani puri",
+      "recommended": true,
+      "foodCheckId": "O2IzeKB6sT0CyTU7rxfaE",
+      "timestamp": "2025-12-12T06:09:47.688Z"
+    },
+    {
+      "id": "reEdpj2N1mfIH-j_5smmE",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "foodName": "Gu",
+      "recommended": true,
+      "foodCheckId": "JovfSJ9BiwNiaALK-KHJu",
+      "timestamp": "2025-12-12T06:41:38.631Z"
+    },
+    {
+      "id": "mk-MYpq0XXgTXtt7R-dOW",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "foodName": "Gu",
+      "recommended": false,
+      "foodCheckId": "JovfSJ9BiwNiaALK-KHJu",
+      "timestamp": "2025-12-12T06:41:38.932Z"
+    },
+    {
+      "id": "DhR1OaM985R3q0GynRVpK",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "foodName": "Gu",
+      "recommended": true,
+      "foodCheckId": "JovfSJ9BiwNiaALK-KHJu",
+      "timestamp": "2025-12-12T06:41:40.688Z"
+    },
+    {
+      "id": "ivDLm03vDIXcdA5FrbK22",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "foodName": "Gu",
+      "recommended": false,
+      "foodCheckId": "JovfSJ9BiwNiaALK-KHJu",
+      "timestamp": "2025-12-12T06:41:41.088Z"
+    },
+    {
+      "id": "OOob9u70SdHwo6G0iyWHr",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "foodName": "Chicken",
+      "recommended": false,
+      "foodCheckId": "1_vcWuex_k2AOTWfP-GtB",
+      "timestamp": "2025-12-12T07:27:53.499Z"
+    },
+    {
+      "id": "o_C9BGgMjEEDkJo3CQMgr",
+      "userId": "wKkuZ1-0s3Es2K2XnhFRR",
+      "foodName": "",
+      "recommended": false,
+      "foodCheckId": "EeyUJ8AKzSw5WZmjcSMmn",
+      "timestamp": "2025-12-12T09:24:11.819Z"
+    },
+    {
+      "id": "_ODxVqkMY3AKD4yIvL2TK",
+      "userId": "wKkuZ1-0s3Es2K2XnhFRR",
+      "foodName": "",
+      "recommended": false,
+      "foodCheckId": "EeyUJ8AKzSw5WZmjcSMmn",
+      "timestamp": "2025-12-12T09:24:14.269Z"
+    },
+    {
+      "id": "OT-EA2zA-vDrCuAwWdqqg",
+      "userId": "buRzcEJw3cOI7TNqV9AEh",
+      "foodName": "Puri",
+      "recommended": false,
+      "foodCheckId": "XVwUy9ZM0kypwLeT4anvm",
+      "timestamp": "2025-12-12T09:50:02.162Z"
+    },
+    {
+      "id": "AklMNwB_DUSmp9XsVH-QN",
+      "userId": "gtQCweCNTJWZYVYP_tJLT",
+      "foodName": "Bananas",
+      "recommended": true,
+      "timestamp": "2025-12-19T12:06:29.083Z"
+    },
+    {
+      "id": "7EPwgbrAY2kuEosXxvf6K",
+      "userId": "gtQCweCNTJWZYVYP_tJLT",
+      "foodName": "Bananas",
+      "recommended": true,
+      "timestamp": "2025-12-19T12:08:57.136Z"
+    },
+    {
+      "id": "EmtdRFeat3lVTWXp4xy0s",
+      "userId": "gtQCweCNTJWZYVYP_tJLT",
+      "foodName": "Bananas",
+      "recommended": true,
+      "timestamp": "2025-12-19T12:15:05.857Z",
+      "dateKey": "2025-12-19"
+    },
+    {
+      "id": "o2tPKKMBg-upAEmRyQwpy",
+      "userId": "gtQCweCNTJWZYVYP_tJLT",
+      "foodName": "Banana",
+      "recommended": true,
+      "timestamp": "2025-12-19T12:22:20.953Z",
+      "dateKey": "2025-12-19"
+    },
+    {
+      "id": "TK1n1Mri9W8ZOMfb-iUKc",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "foodName": "Bananas",
+      "recommended": true,
+      "timestamp": "2025-12-22T07:19:48.664Z",
+      "dateKey": "2025-12-22"
+    },
+    {
+      "id": "hH2-aFUMY9OPfl73Tf0op",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "foodName": "Bananas",
+      "recommended": true,
+      "timestamp": "2025-12-22T07:20:08.189Z",
+      "dateKey": "2025-12-22"
+    },
+    {
+      "id": "D7rupa70B-jlb4esKXnt_",
+      "userId": "55P3cEkpPG5MFggIX_ER5",
+      "foodName": "Bananas",
+      "recommended": true,
+      "dateKey": "2025-12-22",
+      "timestamp": "2025-12-22T07:32:41.663Z"
+    },
+    {
+      "id": "KOK5QUh1-DTn8k1i5-6pr",
+      "userId": "0N0wmjvkCWCZ2MGkQDNdS",
+      "foodName": "Bananas",
+      "recommended": true,
+      "dateKey": "2025-12-22",
+      "timestamp": "2025-12-22T07:36:01.037Z"
+    },
+    {
+      "id": "RoO_zKylnk1X3sOaQnk37",
+      "userId": "0N0wmjvkCWCZ2MGkQDNdS",
+      "foodName": "Banana",
+      "recommended": true,
+      "dateKey": "2025-12-22",
+      "timestamp": "2025-12-22T07:36:30.215Z"
+    },
+    {
+      "id": "4FALvVEp0CJGHXTJu3yuP",
+      "userId": "0N0wmjvkCWCZ2MGkQDNdS",
+      "foodName": "Apple",
+      "recommended": false,
+      "dateKey": "2025-12-22",
+      "timestamp": "2025-12-22T07:37:39.234Z"
+    },
+    {
+      "id": "OTikRTK3VXxoOfw3XcFGf",
+      "userId": "0N0wmjvkCWCZ2MGkQDNdS",
+      "foodName": "Curd",
+      "recommended": false,
+      "dateKey": "2025-12-22",
+      "timestamp": "2025-12-22T07:38:43.133Z"
+    },
+    {
+      "id": "eziHLuLjYU3Sx8YaHR5ti",
+      "userId": "m7xx7HfQ0W-IOhXNM8Vmt",
+      "foodName": "Banana",
+      "recommended": true,
+      "dateKey": "2025-12-22",
+      "timestamp": "2025-12-22T12:28:28.775Z"
+    },
+    {
+      "id": "naf1oUdQ7_qIo0TrqFdBB",
+      "userId": "m7xx7HfQ0W-IOhXNM8Vmt",
+      "foodName": "Peanuts",
+      "recommended": false,
+      "dateKey": "2025-12-22",
+      "timestamp": "2025-12-22T12:48:50.931Z"
+    },
+    {
+      "id": "B2tVgrsJpqndYQWxn1Y23",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "foodName": "Pineapple",
+      "recommended": false,
+      "dateKey": "2025-12-24",
+      "timestamp": "2025-12-24T06:44:52.221Z"
+    },
+    {
+      "id": "yest1",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "foodName": "Spicy curry",
+      "recommended": false,
+      "dateKey": "2025-12-23",
+      "timestamp": "2025-12-23T20:30:00.000Z"
+    },
+    {
+      "id": "yest13",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "foodName": "Ras Malai",
+      "recommended": false,
+      "dateKey": "2025-12-23",
+      "timestamp": "2025-12-23T20:30:00.000Z"
+    },
+    {
+      "id": "yest12",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "foodName": "Dal Makhani",
+      "recommended": false,
+      "dateKey": "2025-12-23",
+      "timestamp": "2025-12-23T20:30:00.000Z"
+    },
+    {
+      "id": "yest21",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "foodName": "Banana",
+      "recommended": false,
+      "dateKey": "2025-12-23",
+      "timestamp": "2025-12-23T20:30:00.000Z"
+    },
+    {
+      "id": "a2ht8XL4Nh84SOOmbXhSX",
+      "userId": "lRzuD97XdvUGmv3cYOXuK",
+      "foodName": "Strawberries",
+      "recommended": false,
+      "dateKey": "2026-02-05",
+      "timestamp": "2026-02-05T09:16:22.942Z"
+    }
+  ],
+  "symptom_logs": [
+    {
+      "id": "LfeMrxATcNjTop71nMkE9",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "symptomType": "Good",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T06:09:44.554Z"
+    },
+    {
+      "id": "ZK9FQQBIq7nVNl0lw7cjg",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "symptomType": "Loose",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T06:41:32.692Z"
+    },
+    {
+      "id": "1sKDvZjm2RhVtDlgFCLxS",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "symptomType": "Loose",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T06:41:32.999Z"
+    },
+    {
+      "id": "og15qX4FBLa1t1JYveSlA",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "symptomType": "Blood",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T06:41:34.329Z"
+    },
+    {
+      "id": "DYGbTWjBV74a76p5DPfcE",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "symptomType": "Blood",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T06:41:34.534Z"
+    },
+    {
+      "id": "OucnHGLfJvl543oHxi1vz",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "symptomType": "Blood",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T06:41:34.742Z"
+    },
+    {
+      "id": "SBHJZdnQn8UvWRCl8ypXy",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "symptomType": "Blood",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T06:41:35.455Z"
+    },
+    {
+      "id": "VT7yG3YmkOB2iFMHRUuQ_",
+      "userId": "c0PUKKCvkzBTH4xpbpw3T",
+      "symptomType": "Blood",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T06:41:35.655Z"
+    },
+    {
+      "id": "hZBRm8xVQkHiYzS-bDGwN",
+      "userId": "buRzcEJw3cOI7TNqV9AEh",
+      "symptomType": "Other",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T09:50:10.559Z"
+    },
+    {
+      "id": "L_Sy__cCKYX_2pAvexLZ_",
+      "userId": "buRzcEJw3cOI7TNqV9AEh",
+      "symptomType": "Blood",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T09:50:12.292Z"
+    },
+    {
+      "id": "lLDcS07KC-QpMgGhsPolN",
+      "userId": "buRzcEJw3cOI7TNqV9AEh",
+      "symptomType": "Blood",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T09:50:13.838Z"
+    },
+    {
+      "id": "QkjTuPVYy7jUyif6SZEzd",
+      "userId": "buRzcEJw3cOI7TNqV9AEh",
+      "symptomType": "Loose",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T09:50:15.261Z"
+    },
+    {
+      "id": "PWMQDIVDecffe34nivrrG",
+      "userId": "buRzcEJw3cOI7TNqV9AEh",
+      "symptomType": "Blood",
+      "note": "",
+      "relatedMealId": null,
+      "timestamp": "2025-12-12T09:50:17.002Z"
+    }
+  ],
+  "monthly_reports": [],
+  "otps": {
+    "8767705637": {
+      "code": "711935",
+      "createdAt": 1765526932863
+    },
+    "+77": {
+      "code": "480471",
+      "createdAt": 1765970128159,
+      "expiresAt": 1765970728159
+    },
+    "+646249": {
+      "code": "853681",
+      "createdAt": 1766384009970,
+      "expiresAt": 1766384609970
+    }
+  },
+  "gut_logs": [
+    {
+      "id": "I0FWgsREZZ0RsnLGZhDgr",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "status": "good",
+      "dateKey": "2025-12-24",
+      "createdAt": "2025-12-24T07:20:47.977Z"
+    },
+    {
+      "id": "ovsQ9OfrIaqmeP5rEp9Z4",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "status": "bad",
+      "dateKey": "2025-12-24",
+      "createdAt": "2025-12-24T07:21:02.212Z"
+    },
+    {
+      "id": "L7Dk3wP07Twn-2pCau1Mu",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "status": "good",
+      "dateKey": "2025-12-24",
+      "createdAt": "2025-12-24T07:27:58.880Z"
+    },
+    {
+      "id": "jXfwwzDGMYJiR6OIoH0Td",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "status": "bad",
+      "dateKey": "2025-12-24",
+      "createdAt": "2025-12-24T07:28:07.895Z"
+    },
+    {
+      "id": "RnhhivNa_LJfLCRxgyqjc",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "status": "bad",
+      "dateKey": "2025-12-24",
+      "createdAt": "2025-12-24T08:01:40.034Z"
+    },
+    {
+      "id": "WzKIVj3JZ34hXfMdivMWw",
+      "userId": "MZn2wjoC8rjQINu2fUatk",
+      "status": "bad",
+      "dateKey": "2025-12-24",
+      "createdAt": "2025-12-24T08:02:36.181Z"
+    },
+    {
+      "id": "w8_CeXRLsZ_qpuJihmPci",
+      "userId": "lRzuD97XdvUGmv3cYOXuK",
+      "status": "bad",
+      "dateKey": "2026-02-05",
+      "createdAt": "2026-02-05T09:14:09.244Z"
+    }
+  ]
+}
